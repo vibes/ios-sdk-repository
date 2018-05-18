@@ -45,7 +45,7 @@ use_frameworks!
 pod 'VibesPush', '2.0.1.sw3'
 ```
 
-If your application is swift 4.x compatible, use the following:
+If your application is swift 4.0.x compatible, use the following:
 
 ```ruby
 source 'https://github.com/CocoaPods/Specs.git'
@@ -54,6 +54,17 @@ platform :ios, '8.0'
 use_frameworks!
 
 pod 'VibesPush', '2.0.1.sw4'
+```
+
+Swift 4.1 is currently only supported on build 1.0.3:
+
+```ruby
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/vibes/pod_specs.git'
+platform :ios, '8.0'
+use_frameworks!
+
+pod 'VibesPush', '1.0.3.sw41'
 ```
 
 Run the following command:
