@@ -42,7 +42,7 @@ source 'https://github.com/vibes/pod_specs.git'
 platform :ios, '8.0'
 use_frameworks!
 
-pod 'VibesPush', '2.0.1.sw3'
+pod 'VibesPush', '2.0.0.sw3'
 ```
 
 If your application is swift 4.0.x compatible, use the following:
@@ -53,7 +53,7 @@ source 'https://github.com/vibes/pod_specs.git'
 platform :ios, '8.0'
 use_frameworks!
 
-pod 'VibesPush', '2.0.1.sw4'
+pod 'VibesPush', '2.0.0.sw4'
 ```
 
 Swift 4.1 is currently only supported on build 1.0.3:
